@@ -188,6 +188,13 @@
       "summary": "Authored by M. Sulaiman, S. A. Hassan, H. Jung."
     },
     {
+      "name": "Monarch: Monitoring Architecture for 5G and Beyond Network Slices",
+      "publisher": "IEEE Transactions on Network and Service Management",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1109/TNSM.2024.3479246",
+      "summary": "Authored by Niloy Saha, Nashid Shahriar, Muhammad Sulaiman, Noura Limam, Raouf Boutaba, Aladdin Saleh."
+    },
+    {
       "name": "MicroOpt: Model-driven Slice Resource Optimization in 5G and Beyond Networks",
       "publisher": "arXiv (Under Review at TNSM)",
       "releaseDate": "2024",

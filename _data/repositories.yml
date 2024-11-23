@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - sulaimanalmani
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - sulaimanalmani/net_model_dataset
+  - sulaimanalmani/rogers-workshop
+  - sulaimanalmani/5GDynamicResourceAllocation
+  - sulaimanalmani/k8s_srsran_open5gs
+  - sulaimanalmani/5G-resource-allocation-dataset
+  - sulaimanalmani/Live_CSI_Activity_Recognition
+  - sulaimanalmani/8051-Electronic-Voting-Machine
+  - sulaimanalmani/color-bling
