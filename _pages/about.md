@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate <br><a href='https://uwaterloo.ca/'>University of Wate
 
 profile:
   align: right
-  image: profile_pic_bw.jpg
+  image: profile_pic_bw.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>DC 2554</p>
