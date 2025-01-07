@@ -153,6 +153,13 @@
   ],
   "publications": [
     {
+      "name": "vNetRunner: Per-VNF Slice Modeling for 5G and Beyond Networks",
+      "publisher": "Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS)",
+      "releaseDate": "2025",
+      //"url": "https://ieeexplore.ieee.org/document/9789903",
+      "summary": "Authored by M. Sulaiman, B. Sun, M. A. Salahuddin, R. Boutaba, and A. Saleh."
+    },
+    {
       "name": "Generalizable 5G RAN/MEC Slicing and Admission Control for Reliable Network Operation",
       "publisher": "IEEE Transactions on Network and Service Management (TNSM)",
       "releaseDate": "2024",
