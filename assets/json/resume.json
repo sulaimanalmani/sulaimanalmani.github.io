@@ -156,7 +156,7 @@
       "name": "vNetRunner: Per-VNF Slice Modeling for 5G and Beyond Networks",
       "publisher": "Proceedings of IEEE/IFIP Network Operations and Management Symposium (NOMS)",
       "releaseDate": "2025",
-      //"url": "https://ieeexplore.ieee.org/document/9789903",
+      "url": "https://rboutaba.cs.uwaterloo.ca/Papers/Conferences/2023/SulaimanNOMS2025.pdf",
       "summary": "Authored by M. Sulaiman, B. Sun, M. A. Salahuddin, R. Boutaba, and A. Saleh."
     },
     {
@@ -203,10 +203,17 @@
     },
     {
       "name": "MicroOpt: Model-driven Slice Resource Optimization in 5G and Beyond Networks",
-      "publisher": "arXiv (Under Review at TNSM)",
+      "publisher": "arXiv (Under Review)",
       "releaseDate": "2024",
       "url": "https://arxiv.org/abs/2407.18342",
       "summary": "Authored by Muhammad Sulaiman, Mahdieh Ahmadi, Bo Sun, Niloy Saha, Mohammad A. Salahuddin, Raouf Boutaba, Aladdin Saleh."
+    },
+    {
+      "name": "Data-driven Online Slice Admission Control and Resource Allocation for 5G and Beyond Networks",
+      "publisher": "arXiv (Under Review)",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2501.10285",
+      "summary": "Authored by Muhammad Sulaiman, Bo Sun, Mohammad A. Salahuddin, Raouf Boutaba, Aladdin Saleh."
     }
   ],
   "skills": [
