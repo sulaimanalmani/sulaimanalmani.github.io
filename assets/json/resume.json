@@ -40,6 +40,14 @@
         "Developed an online slice admission control framework with a theoretical worst-case performance guarantee.",
         "Developed primal-dual and RL based frameworks for dynamic resource scaling of 5G slices."
       ]
+    },
+    {
+      "name": "Ericsson",
+      "position": "AI/ML Software Development Intern",
+      "url": "https://www.ericsson.com/en",
+      "startDate": "2025-05-01",
+      "endDate": "Present",
+      "summary": "I am working on developing AI/ML solutions of improving spectral efficiency in real world 5G network deployments."
     }
   ],
   "education": [
