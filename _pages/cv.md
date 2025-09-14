@@ -1,10 +1,8 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
-cv_pdf: CV.pdf
-toc:
-  sidebar: left
+cv_pdf: /assets/pdf/CV.pdf   # path to your CV PDF
 ---

@@ -22,9 +22,9 @@
       "url": "https://ipt.seecs.nust.edu.pk/",
       "startDate": "2020-06-01",
       "endDate": "2020-08-01",
-      "summary": "Researched Channel State Information (CSI) for activity recognition. Developed expertise in Universal Software Radio Peripherals (USPRs) using GNU Radio.",
+      "summary": "Designed a CSI-based activity recognition system leveraging commodity WiFi hardware and USRPs with GNU Radio, enhancing applications in security, healthcare, and smart environments.",
       "highlights": [
-        "Developed a CSI-based Live Activity Recognition Framework using commodity hardware."
+       "Developed a CSI-based Live Activity Recognition Framework using commodity hardware."
       ]
     },
     {
@@ -33,7 +33,7 @@
       "url": "https://rboutaba-cs.github.io/wat5gslicing/",
       "startDate": "2020-09-01",
       "endDate": "Present",
-      "summary": "I worked on the 5G ELITE project, focusing on autonomous network slicing and resource management using AI. I developed several novel algorithms and addressed gaps in SOTA literature on 5G slice modeling, 5G slice admission control (SAC), and resource allocation.",
+      "summary": "Conducting research on AI-driven management of 5G networks. Developed digital twin models, novel slice admission control frameworks, and dynamic resource scaling algorithms to improve automation, QoS assurance, and spectral efficiency.",
       "highlights": [
         "Developed a novel slice modeling approach.",
         "Developed a novel RL-based framework for joint slicing and admission control of 5G slices.",
@@ -47,7 +47,7 @@
       "url": "https://www.ericsson.com/en",
       "startDate": "2025-05-01",
       "endDate": "Present",
-      "summary": "I am working on developing AI/ML solutions of improving spectral efficiency in real world 5G network deployments."
+      "summary": "Designing and validating AI-native link adaptation algorithms for real-world 5G deployments, enabling dynamic modulation and coding scheme selection to enhance spectral efficiency."
     }
   ],
   "education": [
@@ -211,8 +211,8 @@
     },
     {
       "name": "MicroOpt: Model-driven Slice Resource Optimization in 5G and Beyond Networks",
-      "publisher": "arXiv (Under Review)",
-      "releaseDate": "2024",
+      "publisher": "IEEE Transactions on Network and Service Management",
+      "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2407.18342",
       "summary": "Authored by Muhammad Sulaiman, Mahdieh Ahmadi, Bo Sun, Niloy Saha, Mohammad A. Salahuddin, Raouf Boutaba, Aladdin Saleh."
     },
@@ -323,19 +323,65 @@
       "url": "https://www.linkedin.com/in/mahdieh-ahmadi/?originalSubdomain=ca"
     }
   ],
-  "projects": [
-    {
-      "name": "5G Elite",
-      "summary": "5G mobile networks are expected to support a wide range of applications and services beyond traditional voice and data services. They will offer services with diverse QoS requirements, such as enhanced mobile broadband, ultra-reliable low-latency communications, and massive machine-type communications. Network slicing is an enabling technology for accommodating different QoS requirements on the same physical network. The project aims to realize automated and data-driven 5G network life-cycle management, powered by AI, ML, and large-scale data processing.",
-      "highlights": [
-        "Developed a generalizable resource scaling framework for 5G slices using constrained reinforcement learning, recognized with the Best Paper Award at IEEE/IFIP Network Operations and Management Symposium (NOMS), 2023.",
-        "Implemented a coordinated slicing and admission control system using multi-agent deep reinforcement learning, published in IEEE Transactions on Network and Service Management, 2022.",
-        "Created a multi-agent deep reinforcement learning framework for slicing and admission control in 5G-CRAN, awarded the Best Paper Award at IEEE/IFIP Network Operations and Management Symposium (NOMS), 2022.",
-        "Developed a ML-model-driven approach for optimizing resource allocation in 5G network slices."
-      ],
-      "startDate": "2020-09-01",
-      "endDate": "Present",
-      "url": "https://rboutaba-cs.github.io/wat5gslicing/"
-    }
-  ]
+"projects": [
+  {
+    "name": "5G Testbed and Use-case Deployment",
+    "summary": "Containerized and automated the deployment of a fully functional 5G testbed integrating srsRAN, OAI, and Open5GS. Enabled end-to-end experimentation with AI-driven algorithms and validation of 5G applications such as VR and cloud gaming.",
+    "highlights": [
+      "Automated deployment on Kubernetes with multi-vendor 5G core and RAN components.",
+      "Integrated VR and cloud-gaming applications to demonstrate low-latency capabilities.",
+      "Provided an experimental platform for evaluating AI/ML-based orchestration solutions."
+    ],
+    "url": "https://github.com/sulaimanalmani/k8s_srsran_open5gs"
+  },
+  {
+    "name": "Network Digital Twins",
+    "summary": "Developed AI-based digital twins of 5G slices and VNFs for accurate, scalable, and generalizable modeling. Enabled composable per-VNF models for predicting performance under varying configurations and workloads.",
+    "highlights": [
+      "Built differentiable models using Bayesian NNs, RNNs, and Transformers.",
+      "Released open datasets and reproducible pipelines for research use.",
+      "Published results in IEEE/IFIP NOMS 2025 (vNetRunner) and IEEE TNSM 2025 (MicroOpt)."
+    ],
+    "url": "https://github.com/sulaimanalmani/net_model_dataset"
+  },
+  {
+    "name": "Dynamic Resource Management",
+    "summary": "Designed reinforcement learning and optimization-based algorithms for dynamic resource allocation in 5G networks. Addressed both resource efficiency and QoS constraints in slice operations.",
+    "highlights": [
+      "Developed constrained RL frameworks for resource scaling of 5G slices (Best Paper NOMS 2023).",
+      "Formulated primal-dual optimization methods for near-optimal allocation with guarantees.",
+      "Created the MicroOpt framework for model-driven slice optimization."
+    ],
+    "url": "https://sulaimanalmani.github.io/5GDynamicResourceAllocation/slides.pdf"
+  },
+  {
+    "name": "AI-native Link Adaptation",
+    "summary": "Collaborated with Ericsson to design AI-native link adaptation algorithms for real-world 5G networks. Leveraged DRL to improve modulation and coding scheme (MCS) selection under dynamic channel conditions.",
+    "highlights": [
+      "Validated algorithms in live network settings with improved spectral efficiency.",
+      "Outperformed state-of-the-art heuristics using deep reinforcement learning.",
+      "Work featured in an Ericsson press release (2025)."
+    ],
+    "url": "https://www.ericsson.com/en/press-releases/6/2025/ericsson-and-bell-canada-successfully-test-ai-native-link-adaptation-to-boost-network-speed-and-efficiency"
+  },
+  {
+    "name": "Adaptive Network Monitoring",
+    "summary": "Engineered a cloud-native monitoring framework for dynamic KPI collection in 5G network slices. Designed to balance observability with reduced overhead at large scale.",
+    "highlights": [
+      "Built on Prometheus, Grafana, Spark, Kafka, and Hadoop.",
+      "Implemented adaptive granularity adjustment to minimize monitoring load.",
+      "Published in IEEE TNSM 2024 (MonArch)."
+    ]
+  },
+  {
+    "name": "CSI-based Activity Recognition",
+    "summary": "Designed a CSI-based activity recognition system using commodity WiFi hardware and USRPs with GNU Radio. Applied deep learning to wireless signal patterns for human activity classification.",
+    "highlights": [
+      "Developed and released a framework for live CSI-based recognition.",
+      "Enhanced applications in smart homes, healthcare, and security.",
+      "Published in IEEE WCNC Workshops 2020 (TrueDetect)."
+    ],
+    "url": "https://github.com/sulaimanalmani/CSIActivityRecognition"
+  }
+]
 }

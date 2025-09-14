@@ -1,0 +1,64 @@
+{%- comment -%}
+Non-clickable project card with full details:
+Expected front-matter fields on each _projects/*.md:
+  title, description
+  tools: [ ... ]
+  links: [{name,url}]
+  publications: [{title,venue,url}]
+  tags: [ ... ] (optional)
+{%- endcomment -%}
+<div class="col mb-4 d-flex">
+  <div class="card w-100 shadow-sm">
+    <div class="card-body">
+      <h3 class="h5 card-title mb-2">{{ project.title }}</h3>
+
+      {% if project.description %}
+        <p class="card-text">{{ project.description }}</p>
+      {% endif %}
+
+      {% if project.tools and project.tools != empty %}
+        <h4 class="h6 mt-3 mb-2">Tools</h4>
+        <ul class="tool-chips" aria-label="Tools used">
+          {% for t in project.tools %}
+            <li class="tool-chip">{{ t }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if project.links and project.links != empty %}
+        <h4 class="h6 mt-3 mb-2">Links</h4>
+        <ul class="mb-2 link-list">
+          {% for l in project.links %}
+            <li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if project.publications and project.publications != empty %}
+        <h4 class="h6 mt-3 mb-2">Publications</h4>
+        <ul class="mb-2 pub-list">
+          {% for p in project.publications %}
+            <li>
+              {% if p.url %}
+                <a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+              {% else %}
+                {{ p.title }}
+              {% endif %}
+              {% if p.venue %}<span class="text-muted"> — {{ p.venue }}</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if project.tags and project.tags != empty %}
+        <div class="mt-2">
+          <ul class="tag-chips" aria-label="Tags">
+            {% for tag in project.tags %}
+              <li class="tag-chip">#{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
