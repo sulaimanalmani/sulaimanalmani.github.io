@@ -17,6 +17,7 @@ horizontal: true
 <a id="{{ category | downcase }}" href="#{{ category | downcase }}"><h2 class="category">{{ category }}</h2></a>
 {% assign categorized_projects = site.projects | where: "category", category %}
 {% assign sorted_projects = categorized_projects | sort: "importance" %}
+
 <div class="row">
 {% if sorted_projects and sorted_projects != empty %}
 {% for project in sorted_projects %}
