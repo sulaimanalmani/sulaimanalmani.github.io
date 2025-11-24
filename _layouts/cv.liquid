@@ -12,9 +12,7 @@ layout: default
           <a href="{{ page.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary">
             Open in new tab
           </a>
-          <a href="{{ page.cv_pdf | relative_url }}" download class="btn btn-sm btn-outline-secondary">
-            Download PDF
-          </a>
+          <a href="{{ page.cv_pdf | relative_url }}" download class="btn btn-sm btn-outline-secondary"> Download PDF </a>
         </span>
       {%- endif -%}
     </h1>
@@ -25,30 +23,45 @@ layout: default
 
   <article>
     {%- if has_pdf -%}
-      {% comment %} {#-------------------------#
-       # PDF-ONLY CONTENT MODE   #
-       #-------------------------#} {% endcomment %}
+      {% comment %}
+        {#-------------------------#
+        # PDF-ONLY CONTENT MODE   #
+        #-------------------------#}
+      {% endcomment %}
       <div class="pdf-wrap mt-3">
         <iframe
           class="pdf-frame"
           src="{{ page.cv_pdf | relative_url }}"
           title="Curriculum Vitae"
-          loading="lazy"></iframe>
+          loading="lazy"
+        ></iframe>
       </div>
       <noscript>
         <p><a href="{{ page.cv_pdf | relative_url }}">View CV (PDF)</a></p>
       </noscript>
 
       <style>
-        .pdf-wrap{border:1px solid rgba(0,0,0,.12); border-radius:12px; overflow:hidden;}
-        .pdf-frame{width:100%; height:80vh; border:0; display:block; background:#1a1a1a;}
-        @media (prefers-color-scheme: dark){ .pdf-wrap{border-color:rgba(255,255,255,.16);} }
+        .pdf-wrap {
+          border: 1px solid rgba(0, 0, 0, 0.12);
+          border-radius: 12px;
+          overflow: hidden;
+        }
+        .pdf-frame {
+          width: 100%;
+          height: 80vh;
+          border: 0;
+          display: block;
+          background: #1a1a1a;
+        }
+        @media (prefers-color-scheme: dark) {
+          .pdf-wrap {
+            border-color: rgba(255, 255, 255, 0.16);
+          }
+        }
       </style>
 
     {%- else -%}
-      {#--------------------------------------------#
-       # ORIGINAL CV RENDERING (no cv_pdf provided) #
-       #--------------------------------------------#}
+      {#--------------------------------------------# # ORIGINAL CV RENDERING (no cv_pdf provided) # #--------------------------------------------#}
       {%- unless site.data.resume -%}
         <div class="cv">
           {%- for entry in site.data.cv -%}
@@ -85,18 +98,30 @@ layout: default
               <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
               <div>
                 {%- case data[0] -%}
-                  {%- when 'basics' -%}{%- include resume/basics.liquid -%}
-                  {%- when 'education' -%}{%- include resume/education.liquid -%}
-                  {%- when 'work' -%}{%- include resume/work.liquid -%}
-                  {%- when 'volunteer' -%}{%- include resume/volunteer.liquid -%}
-                  {%- when 'projects' -%}{%- include resume/projects.liquid -%}
-                  {%- when 'awards' -%}{%- include resume/awards.liquid -%}
-                  {%- when 'skills' -%}{%- include resume/skills.liquid -%}
-                  {%- when 'publications' -%}{%- include resume/publications.liquid -%}
-                  {%- when 'languages' -%}{%- include resume/languages.liquid -%}
-                  {%- when 'interests' -%}{%- include resume/interests.liquid -%}
-                  {%- when 'certificates' -%}{%- include resume/certificates.liquid -%}
-                  {%- when 'references' -%}{%- include resume/references.liquid -%}
+                  {%- when 'basics' -%}
+                    {%- include resume/basics.liquid -%}
+                  {%- when 'education' -%}
+                    {%- include resume/education.liquid -%}
+                  {%- when 'work' -%}
+                    {%- include resume/work.liquid -%}
+                  {%- when 'volunteer' -%}
+                    {%- include resume/volunteer.liquid -%}
+                  {%- when 'projects' -%}
+                    {%- include resume/projects.liquid -%}
+                  {%- when 'awards' -%}
+                    {%- include resume/awards.liquid -%}
+                  {%- when 'skills' -%}
+                    {%- include resume/skills.liquid -%}
+                  {%- when 'publications' -%}
+                    {%- include resume/publications.liquid -%}
+                  {%- when 'languages' -%}
+                    {%- include resume/languages.liquid -%}
+                  {%- when 'interests' -%}
+                    {%- include resume/interests.liquid -%}
+                  {%- when 'certificates' -%}
+                    {%- include resume/certificates.liquid -%}
+                  {%- when 'references' -%}
+                    {%- include resume/references.liquid -%}
                   {%- else -%}
                 {%- endcase -%}
               </div>

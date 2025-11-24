@@ -1,11 +1,11 @@
 {%- comment -%}
-Non-clickable project card with full details:
-Expected front-matter fields on each _projects/*.md:
-  title, description
-  tools: [ ... ]
-  links: [{name,url}]
-  publications: [{title,venue,url}]
-  tags: [ ... ] (optional)
+  Non-clickable project card with full details:
+  Expected front-matter fields on each _projects/*.md:
+    title, description
+    tools: [ ... ]
+    links: [{name,url}]
+    publications: [{title,venue,url}]
+    tags: [ ... ] (optional)
 {%- endcomment -%}
 <div class="col mb-4 d-flex">
   <div class="card w-100 shadow-sm">
@@ -29,7 +29,9 @@ Expected front-matter fields on each _projects/*.md:
         <h4 class="h6 mt-3 mb-2">Links</h4>
         <ul class="mb-2 link-list">
           {% for l in project.links %}
-            <li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }}</a></li>
+            <li>
+              <a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }}</a>
+            </li>
           {% endfor %}
         </ul>
       {% endif %}
@@ -44,7 +46,9 @@ Expected front-matter fields on each _projects/*.md:
               {% else %}
                 {{ p.title }}
               {% endif %}
-              {% if p.venue %}<span class="text-muted"> — {{ p.venue }}</span>{% endif %}
+              {% if p.venue -%}
+                <span class="text-muted"> — {{ p.venue }}</span>
+              {%- endif %}
             </li>
           {% endfor %}
         </ul>

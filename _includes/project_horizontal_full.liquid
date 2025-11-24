@@ -37,7 +37,9 @@
               {% else %}
                 {{ p.title }}
               {% endif %}
-              {% if p.venue %}<span class="text-muted"> — {{ p.venue }}</span>{% endif %}
+              {% if p.venue -%}
+                <span class="text-muted"> — {{ p.venue }}</span>
+              {%- endif %}
             </li>
           {% endfor %}
         </ul>

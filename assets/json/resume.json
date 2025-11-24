@@ -23,9 +23,7 @@
       "startDate": "2020-06-01",
       "endDate": "2020-08-01",
       "summary": "Designed a CSI-based activity recognition system leveraging commodity WiFi hardware and USRPs with GNU Radio, enhancing applications in security, healthcare, and smart environments.",
-      "highlights": [
-       "Developed a CSI-based Live Activity Recognition Framework using commodity hardware."
-      ]
+      "highlights": ["Developed a CSI-based Live Activity Recognition Framework using commodity hardware."]
     },
     {
       "name": "University of Waterloo",
@@ -228,43 +226,22 @@
     {
       "name": "Programming",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "C/C++",
-        "Python",
-        "Bash",
-        "MATLAB/R"
-      ]
+      "keywords": ["C/C++", "Python", "Bash", "MATLAB/R"]
     },
     {
       "name": "Networking",
       "icon": "fa-solid fa-network-wired",
-      "keywords": [
-        "Linux networking",
-        "Open vSwitch",
-        "ONOS",
-        "P4"
-      ]
+      "keywords": ["Linux networking", "Open vSwitch", "ONOS", "P4"]
     },
     {
       "name": "Data",
       "icon": "fa-solid fa-database",
-      "keywords": [
-        "Spark",
-        "Hadoop",
-        "Elasticsearch",
-        "Pytorch",
-        "Tensorflow",
-        "Pandas"
-      ]
+      "keywords": ["Spark", "Hadoop", "Elasticsearch", "Pytorch", "Tensorflow", "Pandas"]
     },
     {
       "name": "Cloud",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "OpenStack",
-        "Kubernetes",
-        "Docker"
-      ]
+      "keywords": ["OpenStack", "Kubernetes", "Docker"]
     }
   ],
   "languages": [
@@ -283,12 +260,7 @@
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Machine Learning",
-        "Reinforcement Learning",
-        "Deep Learning",
-        "AI for Network Management"
-      ]
+      "keywords": ["Machine Learning", "Reinforcement Learning", "Deep Learning", "AI for Network Management"]
     },
     {
       "name": "Networking",
@@ -323,65 +295,65 @@
       "url": "https://www.linkedin.com/in/mahdieh-ahmadi/?originalSubdomain=ca"
     }
   ],
-"projects": [
-  {
-    "name": "5G Testbed and Use-case Deployment",
-    "summary": "Containerized and automated the deployment of a fully functional 5G testbed integrating srsRAN, OAI, and Open5GS. Enabled end-to-end experimentation with AI-driven algorithms and validation of 5G applications such as VR and cloud gaming.",
-    "highlights": [
-      "Automated deployment on Kubernetes with multi-vendor 5G core and RAN components.",
-      "Integrated VR and cloud-gaming applications to demonstrate low-latency capabilities.",
-      "Provided an experimental platform for evaluating AI/ML-based orchestration solutions."
-    ],
-    "url": "https://github.com/sulaimanalmani/k8s_srsran_open5gs"
-  },
-  {
-    "name": "Network Digital Twins",
-    "summary": "Developed AI-based digital twins of 5G slices and VNFs for accurate, scalable, and generalizable modeling. Enabled composable per-VNF models for predicting performance under varying configurations and workloads.",
-    "highlights": [
-      "Built differentiable models using Bayesian NNs, RNNs, and Transformers.",
-      "Released open datasets and reproducible pipelines for research use.",
-      "Published results in IEEE/IFIP NOMS 2025 (vNetRunner) and IEEE TNSM 2025 (MicroOpt)."
-    ],
-    "url": "https://github.com/sulaimanalmani/net_model_dataset"
-  },
-  {
-    "name": "Dynamic Resource Management",
-    "summary": "Designed reinforcement learning and optimization-based algorithms for dynamic resource allocation in 5G networks. Addressed both resource efficiency and QoS constraints in slice operations.",
-    "highlights": [
-      "Developed constrained RL frameworks for resource scaling of 5G slices (Best Paper NOMS 2023).",
-      "Formulated primal-dual optimization methods for near-optimal allocation with guarantees.",
-      "Created the MicroOpt framework for model-driven slice optimization."
-    ],
-    "url": "https://sulaimanalmani.github.io/5GDynamicResourceAllocation/slides.pdf"
-  },
-  {
-    "name": "AI-native Link Adaptation",
-    "summary": "Collaborated with Ericsson to design AI-native link adaptation algorithms for real-world 5G networks. Leveraged DRL to improve modulation and coding scheme (MCS) selection under dynamic channel conditions.",
-    "highlights": [
-      "Validated algorithms in live network settings with improved spectral efficiency.",
-      "Outperformed state-of-the-art heuristics using deep reinforcement learning.",
-      "Work featured in an Ericsson press release (2025)."
-    ],
-    "url": "https://www.ericsson.com/en/press-releases/6/2025/ericsson-and-bell-canada-successfully-test-ai-native-link-adaptation-to-boost-network-speed-and-efficiency"
-  },
-  {
-    "name": "Adaptive Network Monitoring",
-    "summary": "Engineered a cloud-native monitoring framework for dynamic KPI collection in 5G network slices. Designed to balance observability with reduced overhead at large scale.",
-    "highlights": [
-      "Built on Prometheus, Grafana, Spark, Kafka, and Hadoop.",
-      "Implemented adaptive granularity adjustment to minimize monitoring load.",
-      "Published in IEEE TNSM 2024 (MonArch)."
-    ]
-  },
-  {
-    "name": "CSI-based Activity Recognition",
-    "summary": "Designed a CSI-based activity recognition system using commodity WiFi hardware and USRPs with GNU Radio. Applied deep learning to wireless signal patterns for human activity classification.",
-    "highlights": [
-      "Developed and released a framework for live CSI-based recognition.",
-      "Enhanced applications in smart homes, healthcare, and security.",
-      "Published in IEEE WCNC Workshops 2020 (TrueDetect)."
-    ],
-    "url": "https://github.com/sulaimanalmani/CSIActivityRecognition"
-  }
-]
+  "projects": [
+    {
+      "name": "5G Testbed and Use-case Deployment",
+      "summary": "Containerized and automated the deployment of a fully functional 5G testbed integrating srsRAN, OAI, and Open5GS. Enabled end-to-end experimentation with AI-driven algorithms and validation of 5G applications such as VR and cloud gaming.",
+      "highlights": [
+        "Automated deployment on Kubernetes with multi-vendor 5G core and RAN components.",
+        "Integrated VR and cloud-gaming applications to demonstrate low-latency capabilities.",
+        "Provided an experimental platform for evaluating AI/ML-based orchestration solutions."
+      ],
+      "url": "https://github.com/sulaimanalmani/k8s_srsran_open5gs"
+    },
+    {
+      "name": "Network Digital Twins",
+      "summary": "Developed AI-based digital twins of 5G slices and VNFs for accurate, scalable, and generalizable modeling. Enabled composable per-VNF models for predicting performance under varying configurations and workloads.",
+      "highlights": [
+        "Built differentiable models using Bayesian NNs, RNNs, and Transformers.",
+        "Released open datasets and reproducible pipelines for research use.",
+        "Published results in IEEE/IFIP NOMS 2025 (vNetRunner) and IEEE TNSM 2025 (MicroOpt)."
+      ],
+      "url": "https://github.com/sulaimanalmani/net_model_dataset"
+    },
+    {
+      "name": "Dynamic Resource Management",
+      "summary": "Designed reinforcement learning and optimization-based algorithms for dynamic resource allocation in 5G networks. Addressed both resource efficiency and QoS constraints in slice operations.",
+      "highlights": [
+        "Developed constrained RL frameworks for resource scaling of 5G slices (Best Paper NOMS 2023).",
+        "Formulated primal-dual optimization methods for near-optimal allocation with guarantees.",
+        "Created the MicroOpt framework for model-driven slice optimization."
+      ],
+      "url": "https://sulaimanalmani.github.io/5GDynamicResourceAllocation/slides.pdf"
+    },
+    {
+      "name": "AI-native Link Adaptation",
+      "summary": "Collaborated with Ericsson to design AI-native link adaptation algorithms for real-world 5G networks. Leveraged DRL to improve modulation and coding scheme (MCS) selection under dynamic channel conditions.",
+      "highlights": [
+        "Validated algorithms in live network settings with improved spectral efficiency.",
+        "Outperformed state-of-the-art heuristics using deep reinforcement learning.",
+        "Work featured in an Ericsson press release (2025)."
+      ],
+      "url": "https://www.ericsson.com/en/press-releases/6/2025/ericsson-and-bell-canada-successfully-test-ai-native-link-adaptation-to-boost-network-speed-and-efficiency"
+    },
+    {
+      "name": "Adaptive Network Monitoring",
+      "summary": "Engineered a cloud-native monitoring framework for dynamic KPI collection in 5G network slices. Designed to balance observability with reduced overhead at large scale.",
+      "highlights": [
+        "Built on Prometheus, Grafana, Spark, Kafka, and Hadoop.",
+        "Implemented adaptive granularity adjustment to minimize monitoring load.",
+        "Published in IEEE TNSM 2024 (MonArch)."
+      ]
+    },
+    {
+      "name": "CSI-based Activity Recognition",
+      "summary": "Designed a CSI-based activity recognition system using commodity WiFi hardware and USRPs with GNU Radio. Applied deep learning to wireless signal patterns for human activity classification.",
+      "highlights": [
+        "Developed and released a framework for live CSI-based recognition.",
+        "Enhanced applications in smart homes, healthcare, and security.",
+        "Published in IEEE WCNC Workshops 2020 (TrueDetect)."
+      ],
+      "url": "https://github.com/sulaimanalmani/CSIActivityRecognition"
+    }
+  ]
 }

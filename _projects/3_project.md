@@ -14,5 +14,4 @@ publications:
   - title: "MicroOpt: Model-driven Slice Resource Optimization in 5G and Beyond Networks"
     venue: IEEE TNSM 2025
     url: https://ieeexplore.ieee.org/document/11059353
-
 ---
